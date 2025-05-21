@@ -48,21 +48,21 @@ class Hybrid : public Wolks, public BMW {
         void info() override;
 };
 
-class Electric : public Hybrid {
+class Electric : virtual public Hybrid {
     public:
         Electric();
         ~Electric() override;
         void info() override;
 };
 
-class Diesel : public Hybrid {
+class Diesel : virtual public Hybrid {
     public:
         Diesel();
         ~Diesel() override;
         void info() override;
 };
 
-class Petrol : public Hybrid {
+class Petrol : virtual public Hybrid {
     public:
         Petrol();
         ~Petrol() override;

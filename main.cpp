@@ -1,6 +1,6 @@
 #include "class.h"
 
 int main() {
-    Car* ok = new Diesel();
+    Car* ok = new MegaHybrid();
     delete ok;
 }

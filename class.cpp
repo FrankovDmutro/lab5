@@ -83,3 +83,32 @@ Diesel::~Diesel() {
 void Diesel::info() {
     cout << "Створено об'єкт класу Diesel" << endl;
 }
+
+Petrol::Petrol() {
+    name = "Petrol";
+    year = 2021;
+    info();
+}
+
+Petrol::~Petrol() {
+    cout << "Знищено об'єкт класу Petrol" << endl;
+}
+
+void Petrol::info() {
+    cout << "Створено об'єкт класу Petrol" << endl;
+}
+
+MegaHybrid::MegaHybrid() {
+    name = "MegaHybrid";
+    year = 2023;
+    info();
+}
+
+MegaHybrid::~MegaHybrid() {
+    cout << "Знищено об'єкт класу MegaHybrid" << endl;
+}
+
+void MegaHybrid::info() {
+    cout << "Створено об'єкт класу MegaHybrid" << endl;
+}
+
